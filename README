@@ -1,0 +1,33 @@
+# 📚 Secure Inventory Management CLI
+
+A robust, terminal-based inventory system built with Python, SQLite, and the Rich library. Designed to demonstrate secure database practices and clean architecture.
+
+![Dashboard Preview](LINK_TO_YOUR_SCREENSHOT_HERE)
+*(Add your screenshot to the repo and link it here)*
+
+## 🚀 Key Features
+* **Visual Dashboard:** Interactive tables and real-time analytics using the `Rich` library.
+* **ACID Compliance:** Uses SQL transactions (`BEGIN TRANSACTION`) to ensure data safety during ID updates.
+* **Security:** Parameterized SQL queries to prevent SQL Injection attacks.
+* **Architecture:** Separation of concerns between Database Logic (Model) and UI (View).
+
+## 🛠️ Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Fayyaadh-Circuit/Python-Secure-Inventory-CLI.git
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the Application**
+    ```bash
+    python inventory_manager.py
+    ```
+
+## 💻 Tech Stack
+* **Language:** Python 3.10+
+* **Database:** SQLite3
+* **UI Library:** Rich
